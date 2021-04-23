@@ -1,0 +1,30 @@
+{
+  "name": "shopify",
+  "version": "1.0.0",
+  "description": "",
+  "source": [
+    "src/index.html"
+  ],
+  "scripts": {
+    "dev": "rm -rf ./dist && parcel src/index.html",
+    "build": "rm -rf ./dist && parcel build src/index.html --no-optimize --no-source-maps --no-content-hash",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gx28ga/shopify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gx28ga/shopify/issues"
+  },
+  "homepage": "https://github.com/gx28ga/shopify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "rimraf": "^3.0.2",
+    "sass": "^1.32.11"
+  }
+}
